@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawTextView"
+            android:text="draw_text_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="staticLayoutView"
+            android:text="文字换行static_layout_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setTextSizeView"
+            android:text="设置文字大小set_text_size_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setTypeFaceView"
+            android:text="设置字体set_type_face_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setFakeBoldTextView"
+            android:text="加粗set_fake_bold_text_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setStrikeThruTextView"
+            android:text="删除线set_strike_thru_text_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setUnderLineTextView"
+            android:text="下划线set_under_line_text_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setTextSkewXiew"
+            android:text="文字倾斜set_text_skew_x_view" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setTextScaleXView"
+            android:text="文字宽度set_text_scale_x_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="setTextAlignView"
+            android:text="对齐方式set_text_align_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getFontSpacingView"
+            android:text="获取推荐的行距get_font_spacing_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="measureTextView"
+            android:text="测量文字宽度measure_text_view" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getTextBoundsView"
+            android:text="文字居中对齐get_text_bounds_view" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getFontMetricsView"
+            android:text="文字基于baseline对齐get_font_metrics_view" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawLinearGradientView"
+            android:text="线性渐变着色器Linear_Gradient" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawRadialGradientView"
+            android:text="辐射渐变着色器Radial_Gradient" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawSweepGradientView"
+            android:text="扫描渐变着色器Sweep_Gradient" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawBitmapShaderView"
+            android:text="Bitmap着色器Bitmap_Shader" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawComposeShaderView"
+            android:text="混合着色器Compose_Shader" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawLightingColorFilterView"
+            android:text="颜色过滤Lighting_Color_Filter" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawColorMatrixColorFilterView"
+            android:text="去除饱和度Color_Matrix_Color_Filter" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawXfermodeView"
+            android:text="离屏缓冲内容结合Transfer_Mode" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawStrokeCapView"
+            android:text="线头形状Stroke_Cap" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawStrokeJoinView"
+            android:text="拐角形状Stroke_Join" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawStrokeMiterView"
+            android:text="拐角的延长线的最大值Stroke_Miter" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawPathEffectView"
+            android:text="图形的轮廓效果Path_Effect" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawShadowLayerView"
+            android:text="阴影Shadow_Layer" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawMaskFilterView"
+            android:text="模糊效果Mask_Filter" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawFillPathView"
+            android:text="获取实际path Fill_Path" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawTextPathView"
+            android:text="获取实际path Text_Path" />
+    </LinearLayout>
+
+</ScrollView>

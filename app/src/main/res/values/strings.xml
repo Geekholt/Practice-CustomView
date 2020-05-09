@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PracticeUI</string>
+
+    <string name="phone_brand_huawei">华为</string>
+    <string name="phone_brand_samsung">三星</string>
+    <string name="phone_brand_lenovo">联想</string>
+    <string name="phone_brand_mi">小米</string>
+    <string name="phone_brand_oppo">oppo</string>
+    <string name="phone_brand_vivo">vivo</string>
+    <string name="phone_brand_meizu">魅族</string>
+    <string name="phone_brand_other">其它</string>
+
+    <string name="ms_with_value">%dms</string>
+
+    <string name="animate">animate</string>
+    <string name="duration">Duration</string>
+    <string-array name="interpolators">
+        <item>AccelerateDecelerateInterpolator</item>
+        <item>LinearInterpolator</item>
+        <item>AccelerateInterpolator</item>
+        <item>DecelerateInterpolator</item>
+        <item>AnticipateInterpolator</item>
+        <item>OvershootInterpolator</item>
+        <item>AnticipateOvershootInterpolator</item>
+        <item>BounceInterpolator</item>
+        <item>CycleInterpolator</item>
+        <item>PathInterpolator</item>
+        <item>FastOutLinearInInterpolator</item>
+        <item>FastOutSlowInInterpolator</item>
+        <item>LinearOutSlowInInterpolator</item>
+    </string-array>
+</resources>

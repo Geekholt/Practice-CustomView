@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_draw_color_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawColorView"
+            android:text="涂颜色" />
+
+        <Button
+            android:id="@+id/btn_draw_circle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawCircleView"
+            android:text="画圆" />
+
+        <Button
+            android:id="@+id/btn_draw_rect_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawRectView"
+            android:text="画矩形" />
+
+        <Button
+            android:id="@+id/btn_draw_point_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawPointView"
+            android:text="画点" />
+
+        <Button
+            android:id="@+id/btn_draw_oval_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawOvalView"
+            android:text="画椭圆" />
+
+        <Button
+            android:id="@+id/btn_draw_line_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawLineView"
+            android:text="画直线" />
+
+        <Button
+            android:id="@+id/btn_draw_round_rect_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawRoundRectView"
+            android:text="画圆角矩形" />
+
+        <Button
+            android:id="@+id/btn_draw_arc_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawArcView"
+            android:text="画弧形和扇形" />
+
+
+        <Button
+            android:id="@+id/btn_draw_path_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawPathView"
+            android:text="画心形" />
+
+        <Button
+            android:id="@+id/btn_draw_histogram_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawHistogramView"
+            android:text="画直方图" />
+
+        <Button
+            android:id="@+id/btn_draw_pie_chart_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="drawPathChartView"
+            android:text="画饼图" />
+    </LinearLayout>
+
+
+</ScrollView>

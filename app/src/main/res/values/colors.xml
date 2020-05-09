@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="colorLv1">#FFF9C4</color>
+    <color name="colorLv2">#FFEB3B</color>
+    <color name="colorLv3">#FBC02D</color>
+    <color name="colorLv4">#F57F17</color>
+
+    <color name="colorHuawei">#D50000</color>
+    <color name="colorSamsung">#FFAB00</color>
+    <color name="colorLenovo">#FFD600</color>
+    <color name="colorMi">#64DD17</color>
+    <color name="colorOppo">#00BFA5</color>
+    <color name="colorVivo">#0091EA</color>
+    <color name="colorMeizu">#6200EA</color>
+    <color name="colorOther">#9E9E9E</color>
+</resources>
