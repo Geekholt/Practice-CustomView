@@ -5,7 +5,7 @@
 
 ![lesson1 绘制基础](https://github.com/Geekholt/Practice-CustomView/blob/master/image/lesson1%20%E7%BB%98%E5%88%B6%E5%9F%BA%E7%A1%80.jpeg)
 
-![lesson2 Paint详解]https://github.com/Geekholt/Practice-CustomView/blob/master/image/lesson2%20Paint%E8%AF%A6%E8%A7%A3.jpeg)
+![lesson2 Paint详解](https://github.com/Geekholt/Practice-CustomView/blob/master/image/lesson2%20Paint%E8%AF%A6%E8%A7%A3.jpeg)
 
 ![lesson3 文字绘制](https://github.com/Geekholt/Practice-CustomView/blob/master/image/lesson3%20%E6%96%87%E5%AD%97%E7%BB%98%E5%88%B6.jpeg)
 
