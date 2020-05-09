@@ -73,26 +73,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="cameraRotateView"
-            android:text="三位旋转camera_rotate_view" />
+            android:text="三维旋转camera_rotate_view" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="cameraRotateFixedView"
-            android:text="camera_rotate_fixed_view" />
+            android:text="三维旋转设置轴心camera_rotate_fixed_view" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="cameraRotateHittingFaceView"
-            android:text="camera_rotate_hitting_face_view" />
+            android:text="三维旋转+动画camera_rotate_hitting_face_view" />
 
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="flipBoardView"
-            android:text="flipboard_view" />
+            android:text="折叠flipboard_view" />
 
     </LinearLayout>
 
