@@ -4,7 +4,7 @@
 ### 总目录
 <img src="https://github.com/Geekholt/Practice-CustomView/blob/master/image/%E6%80%BB%E7%9B%AE%E5%BD%95.jpeg" alt="总目录" width="200;" />
 
-### 总目录
+### 绘制基础
 <img src="https://github.com/Geekholt/Practice-CustomView/blob/master/image/lesson1%20%E7%BB%98%E5%88%B6%E5%9F%BA%E7%A1%80.jpeg" alt="lesson1 绘制基础" width="200;" />
 
 ### Paint详解
