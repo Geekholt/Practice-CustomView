@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="drawXfermodeView"
-            android:text="离屏缓冲内容结合Transfer_Mode" />
+            android:text="图像混合Transfer_Mode" />
 
 
         <Button
