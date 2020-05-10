@@ -10,7 +10,9 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.Point;
+
 import androidx.annotation.Nullable;
+
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
@@ -81,15 +83,13 @@ public class Practice12CameraRotateFixedView extends View {
 
         //如果你需要图形左右对称，需要配合上canvas.translate()或matrix.preTranslate、matrix.postTranslate，
         // 在三维旋转之前把绘制内容的中心点移动到原点，即旋转的轴心，然后在三维旋转后再把投影移动回来
-        camera.save();
-        matrix.reset();
-        camera.rotateX(degree);
-        camera.getMatrix(matrix);
-        camera.restore();
-        matrix.preTranslate(-center1X, -center1Y);
-        matrix.postTranslate(center1X, center1Y);
         canvas.save();
-        canvas.concat(matrix);
+        camera.save();
+        camera.rotateX(degree);
+        canvas.translate(center1X, center1Y);
+        camera.applyToCanvas(canvas);
+        canvas.translate(-center1X, -center1Y);
+        camera.restore();
         canvas.drawBitmap(bitmap, point1.x, point1.y, paint);
         canvas.restore();
 
