@@ -69,8 +69,7 @@
 
 [设置字体 setTypeface](https://github.com/Geekholt/Practice-CustomView/blob/master/app/src/main/java/com/geekholt/practiceui/view/lesson3/Practice04SetTypefaceView.java)
 
-[字体加粗 setFakeBoldText](https://github.com/Geekholt/Practice-
-CustomView/blob/master/app/src/main/java/com/geekholt/practiceui/view/lesson3/Practice05SetFakeBoldTextView.java)
+[字体加粗 setFakeBoldText](https://github.com/Geekholt/Practice-CustomView/blob/master/app/src/main/java/com/geekholt/practiceui/view/lesson3/Practice05SetFakeBoldTextView.java)
 
 [字体删除线 setStrikeThruText](https://github.com/Geekholt/Practice-CustomView/blob/master/app/src/main/java/com/geekholt/practiceui/view/lesson3/Practice06SetStrikeThruTextView.java)
 
