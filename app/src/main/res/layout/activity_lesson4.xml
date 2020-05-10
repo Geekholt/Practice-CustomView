@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="cameraRotateView"
-            android:text="三维旋转camera_rotate_view" />
+            android:text="三维旋转默认原点为轴心camera_rotate_view" />
 
         <Button
             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="cameraRotateHittingFaceView"
-            android:text="三维旋转+动画camera_rotate_hitting_face_view" />
+            android:text="三维旋转设置轴心+相机位置camera_rotate_hitting_face_view" />
 
 
         <Button

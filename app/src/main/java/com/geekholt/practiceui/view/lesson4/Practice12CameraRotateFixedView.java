@@ -1,5 +1,7 @@
 package com.geekholt.practiceui.view.lesson4;
 
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -11,6 +13,7 @@ import android.graphics.Point;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.animation.LinearInterpolator;
 
 import com.geekholt.practiceui.R;
 
@@ -21,6 +24,10 @@ public class Practice12CameraRotateFixedView extends View {
     Point point2 = new Point(600, 200);
     Matrix matrix = new Matrix();
     Camera camera = new Camera();
+
+    int degree;
+    ObjectAnimator animator = ObjectAnimator.ofInt(this, "degree", 0, 360);
+
 
     public Practice12CameraRotateFixedView(Context context) {
         super(context);
@@ -35,7 +42,30 @@ public class Practice12CameraRotateFixedView extends View {
     }
 
     {
+
+        animator.setDuration(5000);
+        animator.setInterpolator(new LinearInterpolator());
+        animator.setRepeatCount(ValueAnimator.INFINITE);
+
         bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.maps);
+    }
+
+    @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        animator.start();
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        animator.end();
+    }
+
+    @SuppressWarnings("unused")
+    public void setDegree(int degree) {
+        this.degree = degree;
+        invalidate();
     }
 
     @Override
@@ -49,9 +79,11 @@ public class Practice12CameraRotateFixedView extends View {
         int center2X = point2.x + bitmapWidth / 2;
         int center2Y = point2.y + bitmapHeight / 2;
 
+        //如果你需要图形左右对称，需要配合上canvas.translate()或matrix.preTranslate、matrix.postTranslate，
+        // 在三维旋转之前把绘制内容的中心点移动到原点，即旋转的轴心，然后在三维旋转后再把投影移动回来
         camera.save();
         matrix.reset();
-        camera.rotateX(30);
+        camera.rotateX(degree);
         camera.getMatrix(matrix);
         camera.restore();
         matrix.preTranslate(-center1X, -center1Y);
@@ -63,7 +95,7 @@ public class Practice12CameraRotateFixedView extends View {
 
         camera.save();
         matrix.reset();
-        camera.rotateY(30);
+        camera.rotateY(degree);
         camera.getMatrix(matrix);
         camera.restore();
         matrix.preTranslate(-center2X, -center2Y);

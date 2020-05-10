@@ -52,6 +52,7 @@ public class Practice13CameraRotateHittingFaceView extends View {
 
         DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
         float newZ = - displayMetrics.density * 6;
+        //设置相机位置，小孔成像原理近大远小
         camera.setLocation(0, 0, newZ);
     }
 
